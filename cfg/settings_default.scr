@@ -1,0 +1,184 @@
+// NOTE:  THIS FILE IS AUTOMATICALLY REGENERATED, 
+//DO NOT EDIT THIS HEADER, YOUR COMMENTS WILL BE LOST IF YOU DO
+// Multiplayer options script
+//
+// Format:
+//  Version [float]
+//  Options description followed by 
+//  Options defaults
+//
+// Option description syntax:
+//
+//  "cvar" { "Prompt" { type [ type info ] } { default } }
+//
+//  type = 
+//   BOOL   (a yes/no toggle)
+//   STRING
+//   NUMBER
+//   LIST
+//
+// type info:
+// BOOL                 no type info
+// NUMBER       min max range, use -1 -1 for no limits
+// STRING       no type info
+// LIST          delimited list of options value pairs
+//
+//
+// default depends on type
+// BOOL is "0" or "1"
+// NUMBER is "value"
+// STRING is "value"
+// LIST is "index", where index "0" is the first element of the list
+
+
+// Half-Life Server Configuration Layout Script (stores last settings chosen, too)
+// File generated:  Wed Jul 14 06:37:28 PM
+//
+//
+// Cvar	-	Setting
+
+VERSION 1.0
+
+DESCRIPTION SERVER_OPTIONS
+{
+	"hostname"
+	{
+		"#Contingency_Server_Name"
+		{ STRING }
+		{ "Contingency - Unofficial Listen Server" }
+	}
+
+	"sv_password"
+	{
+		"#Contingency_Server_Password"
+		{ STRING }
+		{ "" }
+	}
+	
+	"rcon_password"
+	{
+		"#Contingency_RCON_Password"
+		{ STRING }
+		{ "" }
+	}
+
+	"maxplayers"
+	{
+		"#Contingency_Max_Players"
+		{ NUMBER 1 5 }
+		{ "5" }
+	}
+
+	"mp_timelimit"
+	{
+		"#Contingency_Map_Time_Limit"
+		{ NUMBER 0 -1 }
+		{ "0" }
+	}
+
+	"mp_fraglimit"
+	{
+		"#Contingency_Map_Kill_Limit"
+		{ NUMBER 0 -1 }
+		{ "0" }
+	}
+
+	"mp_footsteps"
+	{
+		"#Contingency_Footsteps"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"mp_flashlight"
+	{
+		"#Contingency_Flashlight"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"mp_falldamage"
+	{
+		"#Contingency_Fall_Damage"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"contingency_health_regen"
+	{
+		"#Contingency_Health_Regen"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"contingency_health_regen_delay"
+	{
+		"#Contingency_Health_Regen_Delay"
+		{ NUMBER 0 -1 }
+		{ "1" }
+	}
+	
+	"contingency_health_regen_amount"
+	{
+		"#Contingency_Health_Regen_Amount"
+		{ NUMBER 0 -1 }
+		{ "1" }
+	}
+	
+	"contingency_phase_interimtime"
+	{
+		"#Contingency_Phase_Interim_Time"
+		{ NUMBER 0 -1 }
+		{ "30" }
+	}
+	
+	"contingency_wave_support"
+	{
+		"#Contingency_Wave_Support"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"contingency_wave_preferredtype"
+	{
+		"#Contingency_Wave_Preferred_Type"
+		{
+			LIST
+			"None (Random)" "0"
+			"Headcrabs" "1"
+			"Antlions" "2"
+			"Zombies" "3"
+			"Combine" "4"
+		}
+		{ "0" }
+	}
+	
+	"contingency_wave_multiplier_headcrabs"
+	{
+		"#Contingency_Wave_Multiplier_Headcrabs"
+		{ NUMBER 0 -1 }
+		{ "3" }
+	}
+	
+	"contingency_wave_multiplier_antlions"
+	{
+		"#Contingency_Wave_Multiplier_Antlions"
+		{ NUMBER 0 -1 }
+		{ "4" }
+	}
+	
+	"contingency_wave_multiplier_zombies"
+	{
+		"#Contingency_Wave_Multiplier_Zombies"
+		{ NUMBER 0 -1 }
+		{ "5" }
+	}
+	
+	"contingency_wave_multiplier_combine"
+	{
+		"#Contingency_Wave_Multiplier_Combine"
+		{ NUMBER 0 -1 }
+		{ "2" }
+	}
+	
+}
