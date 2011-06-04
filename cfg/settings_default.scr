@@ -153,6 +153,13 @@ DESCRIPTION SERVER_OPTIONS
 		{ "0" }
 	}
 	
+	"contingency_wave_maxlivingnpcs"
+	{
+		"#Contingency_Wave_Max_Living_NPCs"
+		{ NUMBER 0 -1 }
+		{ "30" }
+	}
+	
 	"contingency_wave_multiplier_headcrabs"
 	{
 		"#Contingency_Wave_Multiplier_Headcrabs"

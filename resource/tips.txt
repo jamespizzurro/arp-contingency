@@ -1,0 +1,8 @@
+game_tips
+{
+	"tip"	"Some servers and maps may only use one type of wave instead of selecting a random one at the beginning of each combat wave."
+	"tip"	"You can change your loadout anytime during an interim phase by pressing your 'Show Loadout Menu' key (M by default)."
+	"tip"	"For everything Contingency, visit our website @ www.agentredproductions.com and join our community!"
+	"tip"	"Have you identified what you believe to be a bug or an exploit? Report it to us via our forums @ www.agentredproductions.com/forum"
+	"tip"	"Have a tip you think is worthy of being displayed here? Visit our forums @ www.agentredproductions.com/forum and tell us about it!"
+}
