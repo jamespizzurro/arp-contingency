@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"Contingency {Currently In Development}"
+	game	"Contingency {SVN Open Alpha}"
 	title	"CONTINGENCY"
 	type 	multiplayer_only
 	nomodels 1
@@ -25,7 +25,6 @@
 		SearchPaths
 		{
 			Game				|gameinfo_path|.
-			Game				|all_source_engine_paths|hl2mp
 			Game				|all_source_engine_paths|hl2
 		}
 	}
