@@ -2,6 +2,7 @@
 {
 	game	"Contingency {SVN Open Alpha}"
 	title	"CONTINGENCY"
+	icon "resource/steamicon"
 	type 	multiplayer_only
 	nomodels 1
 	nohimodel 1
