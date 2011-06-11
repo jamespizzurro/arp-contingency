@@ -1565,3 +1565,15 @@
 	"soundlevel"  	"SNDLVL_70dB"
 	"wave"	"weapons/tripwire/mine_activate.wav"
 }
+
+// Contingency - James
+// Everything from here on down is specific to Contingency
+
+"Weapon_NyanGun.AnnoyingAsFuckSound"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.7"
+	"soundlevel"  	"SNDLVL_75dB"
+
+	"wave"	")weapons/nyangun/nyan.wav"
+}
