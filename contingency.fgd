@@ -22,13 +22,17 @@
 		3 : "Zombies"
 		4 : "Combine"
 	]
+	
+	// Outputs
+	output OnInterimPhaseBegin(void) : "Fired when an interim phase begins (usually corresponds with the ending of a combat phase)."
+	output OnCombatPhaseBegin(void) : "Fired when a combat phase begins (usually corresponds with the ending of an interim phase)."
 ]
 
 //////////
 // NPCs //
 //////////
 
-@PointClass base(Angles) iconsprite("editor/npc_maker.vmt") = contingency_wave_spawner : 
+@PointClass base(Targetname, Angles, RenderFields, DamageFilter, ResponseContext, Shadow) iconsprite("editor/npc_maker.vmt") = contingency_wave_spawner : 
 	"Used to spawn certain types of waves of NPCs during a combat phase."
 [
 	StartDisabled(choices) : "Start Disabled" : 0 =
@@ -47,6 +51,8 @@
 	SpawnFrequency(string) : "Frequency" : "-1" : "How often (in seconds) a new NPC will be spawned. If set to -1, a new NPC will be made when the last NPC dies."
 	MaxLiveChildren(integer) : "Max Live NPCs" : -1 : "Maximum number of live children allowed at any one time (new ones will not be made until one dies). If set to -1, no limit is applied."
 	NPCSquadname(string) : "Childrens' Squad Name" : "contingency"
+	
+	rallyPointName(string) : "Rally Point Name" : "" : "(OPTIONAL) Name of the contingency_rallypoint entity that NPCs should move to when they spawn."
 
 	// Outputs
 	output OnSpawnNPC(string) : "Fired when an NPC is spawned. The activator is the NPC, and the string is the name of the NPC." 
@@ -61,7 +67,7 @@
 	input SetSpawnFrequency(float) : "Sets how often (in seconds) a new NPC will be spawned."
 ]
 
-@PointClass base(Angles) iconsprite("editor/npc_maker.vmt") = contingency_support_wave_spawner : 
+@PointClass base(Targetname, Angles, RenderFields, DamageFilter, ResponseContext, Shadow) iconsprite("editor/npc_maker.vmt") = contingency_support_wave_spawner : 
 	"Used to spawn support NPCs during an interim phase."
 [
 	StartDisabled(choices) : "Start Disabled" : 0 =
@@ -80,6 +86,8 @@
 	SpawnFrequency(string) : "Frequency" : "-1" : "How often (in seconds) a new NPC will be spawned. If set to -1, a new NPC will be made when the last NPC dies."
 	MaxLiveChildren(integer) : "Max Live NPCs" : -1 : "Maximum number of live children allowed at any one time (new ones will not be made until one dies). If set to -1, no limit is applied."
 	NPCSquadname(string) : "Childrens' Squad Name" : "contingency_support"
+	
+	rallyPointName(string) : "Rally Point Name" : "" : "(OPTIONAL) Name of a contingency_rallypoint entity that NPCs should move to upon spawning."
 
 	// Outputs
 	output OnSpawnNPC(string) : "Fired when an NPC is spawned. The activator is the NPC, and the string is the name of the NPC." 
@@ -134,4 +142,9 @@
 
 	output OnLostEnemies(void) : "Fires when the enemy finder has no enemies."
 	output OnAcquireEnemies(void) : "Fires when the enemy finder acquires enemies."
+]
+
+@PointClass base(Targetname) iconsprite("editor/bullseye.vmt") = contingency_rallypoint : 
+	"An optional rally point for wave and support wave spawners that can be used to force NPCs to move towards this point entity's origin upon spawning."
+[
 ]
