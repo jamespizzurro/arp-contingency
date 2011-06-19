@@ -52,6 +52,30 @@
 	MaxLiveChildren(integer) : "Max Live NPCs" : -1 : "Maximum number of live children allowed at any one time (new ones will not be made until one dies). If set to -1, no limit is applied."
 	NPCSquadname(string) : "Childrens' Squad Name" : "contingency"
 	
+	InhibitSpawningHeadcrabs(choices) : "Inhibit Spawning Headcrabs?" : 0 : "If yes, headcrab NPCs will NOT be spawned from this spawner during headcrabs waves." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	InhibitSpawningAntlions(choices) : "Inhibit Spawning Antlions?" : 0 : "If yes, antlion NPCs will NOT be spawned from this spawner during antlion waves." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	InhibitSpawningZombies(choices) : "Inhibit Spawning Zombies?" : 0 : "If yes, zombie NPCs will NOT be spawned from this spawner during zombie waves." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
+	InhibitSpawningCombine(choices) : "Inhibit Spawning Combine?" : 0 : "If yes, Combine NPCs will NOT be spawned from this spawner during Combine waves." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
 	rallyPointName(string) : "Rally Point Name" : "" : "(OPTIONAL) Name of the contingency_rallypoint entity that NPCs should move to when they spawn."
 
 	// Outputs
