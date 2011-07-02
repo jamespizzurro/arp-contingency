@@ -23,6 +23,12 @@
 		4 : "Combine"
 	]
 	
+	ShouldPlayBackgroundMusic(choices) : "Play Background Sounds?" : 1 : "Should background sounds automatically be played during combat phases? Servers can disregard the value of this property if the ConVar contingency_phase_backgroundmusic is set to 0, but if it is set to 1, the value of this property has the final say. If you want to have your own background music system in your map, you should disable this, but it is still not guaranteed your system will function properly depending on the nature of your system due to the nature of Contingency's built-in background sounds system." =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+	
 	// Outputs
 	output OnInterimPhaseBegin(void) : "Fired when an interim phase begins (usually corresponds with the ending of a combat phase)."
 	output OnCombatPhaseBegin(void) : "Fired when a combat phase begins (usually corresponds with the ending of an interim phase)."
@@ -172,3 +178,10 @@
 	"An optional rally point for wave and support wave spawners that can be used to force NPCs to move towards this point entity's origin upon spawning."
 [
 ]
+
+/////////////
+// Weapons //
+/////////////
+
+@PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_nyangun : "NYAN GUN" []
+@PointClass base(Weapon) studio("models/weapons/w_healthkit.mdl") = weapon_healthkit : "HEALTH KIT" []

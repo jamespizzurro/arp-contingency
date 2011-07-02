@@ -1,5 +1,4 @@
-// Contingency - James
-// The Nyan Gun (don't ask)
+// THE NYAN GUN
 
 WeaponData
 {
@@ -9,7 +8,7 @@ WeaponData
 	"playermodel"			"models/weapons/w_rocket_launcher.mdl"
 	"anim_prefix"			"missile launcher"
 	"bucket"				"0"
-	"bucket_position"		"3"
+	"bucket_position"		"4"
 	"autoswitchfrom"		"1"
 
 	"clip_size"			"1"
