@@ -132,13 +132,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "30" }
 	}
 	
-	"contingency_phase_backgroundmusic"
-	{
-		"#Contingency_Phase_Background_Music"
-		{ BOOL }
-		{ "1" }
-	}
-	
 	"contingency_wave_support"
 	{
 		"#Contingency_Wave_Support"

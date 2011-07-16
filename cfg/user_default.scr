@@ -41,11 +41,24 @@ VERSION 1.0
 
 DESCRIPTION INFO_OPTIONS
 {
-	"contingency_client_heartbeat_sounds"
+	"contingency_client_heartbeatsounds"
 	{
-		"Enable heartbeat sounds when health is low"
+		"Play heartbeat sounds when health is low"
 		{ BOOL }
 		{ "1" }
 	}
 
+	"contingency_client_backgroundmusic"
+	{
+		"Play background music during combat phases"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"contingency_client_backgroundmusic_volume"
+	{
+		"Background music volume"
+		{ SLIDER 0 1 }
+		{ "0.5" }
+	}	
 }

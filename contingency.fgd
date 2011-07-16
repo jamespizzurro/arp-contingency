@@ -23,12 +23,6 @@
 		4 : "Combine"
 	]
 	
-	ShouldPlayBackgroundMusic(choices) : "Play Background Sounds?" : 1 : "Should background sounds automatically be played during combat phases? Servers can disregard the value of this property if the ConVar contingency_phase_backgroundmusic is set to 0, but if it is set to 1, the value of this property has the final say. If you want to have your own background music system in your map, you should disable this, but it is still not guaranteed your system will function properly depending on the nature of your system due to the nature of Contingency's built-in background sounds system." =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
-	
 	// Outputs
 	output OnInterimPhaseBegin(void) : "Fired when an interim phase begins (usually corresponds with the ending of a combat phase)."
 	output OnCombatPhaseBegin(void) : "Fired when a combat phase begins (usually corresponds with the ending of an interim phase)."
@@ -52,35 +46,15 @@
 		// Only in npc__maker, npc_template_maker uses flag from template NPC
 		64 : "Do Not Drop" : 0
 		128 : "Don't Spawn While Visible" : 0
+		1024 : "Can Spawn Headcrabs" : 1
+		2048 : "Can Spawn Antlions" : 1
+		4096 : "Can Spawn Zombies" : 1
+		8192 : "Can Spawn Combine" : 1
 	]
 
 	SpawnFrequency(string) : "Frequency" : "-1" : "How often (in seconds) a new NPC will be spawned. If set to -1, a new NPC will be made when the last NPC dies."
 	MaxLiveChildren(integer) : "Max Live NPCs" : -1 : "Maximum number of live children allowed at any one time (new ones will not be made until one dies). If set to -1, no limit is applied."
 	NPCSquadname(string) : "Childrens' Squad Name" : "contingency"
-	
-	InhibitSpawningHeadcrabs(choices) : "Inhibit Spawning Headcrabs?" : 0 : "If yes, headcrab NPCs will NOT be spawned from this spawner during headcrabs waves." =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
-	
-	InhibitSpawningAntlions(choices) : "Inhibit Spawning Antlions?" : 0 : "If yes, antlion NPCs will NOT be spawned from this spawner during antlion waves." =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
-	
-	InhibitSpawningZombies(choices) : "Inhibit Spawning Zombies?" : 0 : "If yes, zombie NPCs will NOT be spawned from this spawner during zombie waves." =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
-	
-	InhibitSpawningCombine(choices) : "Inhibit Spawning Combine?" : 0 : "If yes, Combine NPCs will NOT be spawned from this spawner during Combine waves." =
-	[
-		0 : "No"
-		1 : "Yes"
-	]
 	
 	rallyPointName(string) : "Rally Point Name" : "" : "(OPTIONAL) Name of the contingency_rallypoint entity that NPCs should move to when they spawn."
 
