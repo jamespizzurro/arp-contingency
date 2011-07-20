@@ -7,7 +7,7 @@ WeaponData
 	"viewmodel"				"models/weapons/v_smg1.mdl"
 	"playermodel"			"models/weapons/w_smg1.mdl"	//FIXME: 
 	"anim_prefix"			"smg2"
-	"bucket"				"2"
+	"bucket"				"0"
 	"bucket_position"		"0"
 
 	"clip_size"				"45"
@@ -19,9 +19,11 @@ WeaponData
 	"primary_ammo"			"SMG1"
 	"secondary_ammo"		"SMG1_Grenade"
 
-	"weight"				"3"
+	"weight"				"10"
 	"item_flags"			"0"
 	"damage"			"5"
+
+	"weapon_type"	"primary"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

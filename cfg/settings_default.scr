@@ -139,20 +139,6 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 	
-	"contingency_wave_preferredtype"
-	{
-		"#Contingency_Wave_Preferred_Type"
-		{
-			LIST
-			"None (Random)" "0"
-			"Headcrabs" "1"
-			"Antlions" "2"
-			"Zombies" "3"
-			"Combine" "4"
-		}
-		{ "0" }
-	}
-	
 	"contingency_wave_maxlivingnpcs"
 	{
 		"#Contingency_Wave_Max_Living_NPCs"

@@ -7,16 +7,18 @@ WeaponData
 	"viewmodel"				"models/weapons/v_slam.mdl"
 	"playermodel"			"models/weapons/w_slam.mdl"
 	"anim_prefix"			"slam"
-	"bucket"				"4"
-	"bucket_position"		"2"
+	"bucket"				"3"
+	"bucket_position"		"0"
 
 	"clip_size"				"3"
 	"primary_ammo"			"None"
 	"secondary_ammo"		"slam"
 	"default_clip2"			"3"
 
-	"weight"				"1"
+	"weight"				"10"
 	"item_flags"			"2"
+
+	"weapon_type"	"equipment"
 
 	// Weapon Sprite data is loaded by the Client DLL.
 	TextureData

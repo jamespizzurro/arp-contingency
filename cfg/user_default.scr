@@ -57,7 +57,7 @@ DESCRIPTION INFO_OPTIONS
 	
 	"contingency_client_backgroundmusic_volume"
 	{
-		"Background music volume"
+		"Adjust background music volume"
 		{ SLIDER 0 1 }
 		{ "0.5" }
 	}	

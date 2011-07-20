@@ -5,7 +5,7 @@ WeaponData
 	"viewmodel"				"models/weapons/v_grenade.mdl"
 	"playermodel"			"models/weapons/w_grenade.mdl"
 	"anim_prefix"			"Grenade"
-	"bucket"				"4"
+	"bucket"				"3"
 	"bucket_position"		"0"
 
 	"clip_size"				"-1"
@@ -16,9 +16,11 @@ WeaponData
 	"primary_ammo"			"grenade"
 	"secondary_ammo"		"None"
 
-	"weight"				"1"
+	"weight"				"5"
 	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
 	"damage"			"150"
+
+	"weapon_type"	"equipment"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

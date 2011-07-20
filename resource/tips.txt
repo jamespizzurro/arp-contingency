@@ -1,7 +1,16 @@
 game_tips
 {
-	"tip"	"Some servers and maps may only use one type of wave instead of selecting a random one at the beginning of each combat wave."
-	"tip"	"You can change your loadout anytime during an interim phase by pressing your 'Show Loadout Menu' key (M by default)."
+	"tip"	"You can change your loadout anytime by pressing your loadout menu key. Changes will always be saved, but won't be applied until an interim phase."
+	"tip"	"Maps do not have to use every available wave type. Some may only use a few, or even just one! Which wave types are actually used is defined on a per-map basis."
+	"tip"	"Your speed depends on a variety of factors, including your current health and loadout. For instance, some weapons weigh more than others, so before you go straight for that AR2, think of the repercussions!"
+	"tip"	"Interim phases are the only times in the game where you get a short break from all the action, so make use of them! Reassess your team's strategy, change your loadout, find a new place to defend...do *something* before the next wave begins!"
+	"tip"	"Health kits restore a target's health to full. If you find one and pick it up, you have a few choices: use it on yourself (primary fire button), heal a teammate (secondary fire button), drop it (drop button), or hold onto it for later."
+	"tip"	"If you're injured, don't worry, you'll regenerate health, but it may take a while to fully recover from your wounds. To speed up the process, try finding a health kit. If all else fails, just hide and stay out of harm's way until you're better!"
+	"tip"	"Sometimes you may encounter a boss NPC during a wave. You'll know them when you see them. These enemies are much stronger than their counterparts, but each has a significant weakness, so as long as you're with the rest of your team, you should be fine."
+	"tip"	"If you encounter friendly NPCs, you can let them follow you and your team as a support squad. Support squads can be commanded to follow the nearest player (use key), move to a particular location (squad command key) or stand their ground (use key)."
+	"tip"	"All clip-based projectile weapons have unlimited ammo. This might seem like a good thing, and it is, but don't let the power go to your head! You're NOT invincible!"
+	"tip"	"There is no such thing as 'winning' a game of Contingency. The waves of enemies are infinite, and you are limited by your health. Instead, the challenge is to see how far you can get (i.e. how many waves you can clear) before dying."
+	"tip"	"Instead of a class system, Contingency features a loadout system that allows you to choose your own weapons by category. This puts you in total control of your in-game performance. Each and every combination of weapons has its own set of advantages and disadvantages, so be sure to experiment with different loadouts as the game progresses!"
 	"tip"	"For everything Contingency, visit our website @ www.agentredproductions.com and join our community!"
 	"tip"	"Have you identified what you believe to be a bug or an exploit? Report it to us via our forums @ www.agentredproductions.com/forum"
 	"tip"	"Have a tip you think is worthy of being displayed here? Visit our forums @ www.agentredproductions.com/forum and tell us about it!"

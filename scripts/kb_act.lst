@@ -3,6 +3,7 @@
 "blank"			"=========================="
 "showloadoutmenu"		"#Contingency_Show_Loadout_Menu"
 "drop"					"#Contingency_Drop_Current_Weapon"
+"impulse 50"			"#Contingency_Command_Support_Squad"
 "blank"			"=========================="
 "blank"			"#Valve_Movement_Title"
 "blank"			"=========================="

@@ -7,15 +7,17 @@ WeaponData
 	"viewmodel"				"models/weapons/v_stunstick.mdl"
 	"playermodel"			"models/weapons/w_stunbaton.mdl"
 	"anim_prefix"			"stunbaton"
-	"bucket"				"0"
-	"bucket_position"		"1"
+	"bucket"				"2"
+	"bucket_position"		"0"
 
 	"clip_size"				"-1"
 	"primary_ammo"			"None"
 	"secondary_ammo"		"None"
 
-	"weight"				"0"
+	"weight"				"5"
 	"item_flags"			"0"
+
+	"weapon_type"	"melee"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

@@ -7,8 +7,8 @@ WeaponData
 	"viewmodel"				"models/weapons/v_rpg.mdl"
 	"playermodel"			"models/weapons/w_rocket_launcher.mdl"
 	"anim_prefix"			"missile launcher"
-	"bucket"				"0"
-	"bucket_position"		"4"
+	"bucket"				"4"
+	"bucket_position"		"0"
 	"autoswitchfrom"		"1"
 
 	"clip_size"			"1"
@@ -19,7 +19,7 @@ WeaponData
 	"primary_ammo"			"Pistol"
 	"secondary_ammo"		"None"
 
-	"weight"				"0"
+	"weight"				"20"
 	"item_flags"			"0"
 	"damage"			"0"
 

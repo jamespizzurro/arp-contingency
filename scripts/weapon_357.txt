@@ -7,15 +7,15 @@ WeaponData
 	"viewmodel"			"models/weapons/v_357.mdl"
 	"playermodel"		"models/weapons/w_357.mdl"
 	"anim_prefix"		"python"
-	"bucket"			"1"
-	"bucket_position"	"1"
+	"bucket"			"0"
+	"bucket_position"	"0"
 
 	"clip_size"			"6"
 	"default_clip"		"6"
 	"primary_ammo"		"357"
 	"secondary_ammo"	"None"
 
-	"weight"		"7"
+	"weight"		"10"
 	"item_flags"		"0"
 
 	"damage"		"75"
