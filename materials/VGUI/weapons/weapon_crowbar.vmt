@@ -1,6 +1,5 @@
-UnlitGeneric
+"UnlitGeneric"
 {
-// Original shader: BaseTimesVertexColorAlphaBlendNoOverbright
 	"$translucent" "1"
 	"$basetexture"	"vgui\weapons\weapon_crowbar"
 	"$vertexcolor" "1"
@@ -8,5 +7,4 @@ UnlitGeneric
 	"$no_fullbright" "1"
 	"$ignorez"	"1"
 	"$decalscale" "0.250"
-
 }

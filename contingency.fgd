@@ -13,13 +13,16 @@
 	spawnflags(Flags) = 
 	[
 		// By default, a map supports all waves
+		// If none of these flags are selected, the game will assume all waves are supported to prevent the breaking of any game logic
+		// Also, a warning message will be displayed in all players' consoles each wave as a reminder that the map isn't configured properly
+
 		1 : "Allow headcrab waves" : 1
 		16 : "Allow antlion waves" : 1
 		32 : "Allow zombie waves" : 1
 		64 : "Allow Combine waves" : 1
 	]
 
-	// By default, a server's wave multipliers are not manipulated
+	// By default, a server's wave multipliers are not manipulated or modified in any way
 	HeadcrabWaveMultiplierOffset(float) : "Headcrab Wave Multiplier Offset" : 0 : "Defines an offset for the server's headcrab wave multiplier. For example, if the server's multiplier is 2, defining 1 here will make the multiplier 3. Negative numbers are supported, but could easily break something."
 	AntlionWaveMultiplierOffset(float) : "Antlion Wave Multiplier Offset" : 0 : "Defines an offset for the server's antlion wave multiplier. For example, if the server's multiplier is 2, defining 1 here will make the multiplier 3. Negative numbers are supported, but could easily break something."
 	ZombieWaveMultiplierOffset(float) : "Zombie Wave Multiplier Offset" : 0 : "Defines an offset for the server's zombie wave multiplier. For example, if the server's multiplier is 2, defining 1 here will make the multiplier 3. Negative numbers are supported, but could easily break something."
