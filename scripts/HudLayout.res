@@ -545,4 +545,30 @@
 		"PaintBackgroundType"	"2"
 	}
 	
+	HudMenu
+	{
+		"fieldName" "HudMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide" "640"
+		"tall" "480"
+		"zpos" "1"
+		"TextFont" "Default"
+		"ItemFont" "Default"
+		"ItemFontPulsing" "Default"
+	}
+
+	HudRadio
+	{
+		"fieldName" "HudRadio"
+		"TextFont" "Default"
+		"visible" "1"
+		"xpos" "10"
+		"ypos" "c"
+		"wide" "Default"
+		"tall" "Default"
+		"text_ygap" "2"
+		"TextColor" "255 255 255 192"
+		"PaintBackgroundType" "0"
+	}
 }
