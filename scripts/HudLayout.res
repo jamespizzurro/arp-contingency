@@ -415,12 +415,25 @@
 		"text_ypos" "4"
 	}
 	
+	HudContingencyWaveDisplay
+	{
+		"fieldName" "HudContingencyWaveDisplay"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"16"
+		"ypos"	"38"
+		"wide" "48"
+		"tall" "48"
+		"text_xpos" "8"
+		"text_ypos" "4"
+	}
+	
 	HudContingencyPhaseDisplay
 	{
 		"fieldName" "HudContingencyPhaseDisplay"
 		"visible" "0"
 		"enabled" "1"
-		"xpos"	"16"
+		"xpos"	"80"
 		"ypos"	"38"
 		"wide" "300"
 		"tall" "60"
