@@ -1,0 +1,12 @@
+"config"
+{
+	"preview_visible"		"0"
+	"p_x"		"314"
+	"p_y"		"153"
+	"p_sx"		"532"
+	"p_sy"		"521"
+	"draw_datatypes"		"1"
+	"draw_shadows"		"1"
+	"draw_all_limits"		"0"
+	"compile_preview"		"1"
+}
