@@ -1577,3 +1577,43 @@
 
 	"wave"	")weapons/nyangun/nyan.wav"
 }
+
+"Weapon_Stigma_Dual_Pistol.Click"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"80, 100"
+
+	"wave"		")weapons/dualpistol/stigma_dual_pistol_click.wav"
+}
+
+"Weapon_Stigma_Dual_Pistol.ClipOut"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95, 105"
+
+	"wave"		")weapons/dualpistol/stigma_dual_pistol_clipout.wav"
+}
+
+"Weapon_Stigma_Dual_Pistol.ClipIn"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"95, 105"
+
+	"wave"		")weapons/dualpistol/stigma_dual_pistol_clipin.wav"
+}
+
+"Weapon_Alyxgun.Fire"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95, 100, 105"
+
+	"wave"		"^weapons/alyxgun/alyxgun_fire.wav"
+}

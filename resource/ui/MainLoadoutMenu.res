@@ -438,7 +438,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"Apply + Save"
+		"labelText"		"Save Changes"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"

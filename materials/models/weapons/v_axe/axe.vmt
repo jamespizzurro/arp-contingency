@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_axe\axe"
+	"$bumpmap" "models\weapons\v_axe\axe_bump"
+	"$normalmapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost"	"2"
+	"$phongfresnelranges"	"[1 1 1]"
+}

@@ -55,6 +55,7 @@
 		2048 : "Can Spawn Antlions" : 1
 		4096 : "Can Spawn Zombies" : 1
 		8192 : "Can Spawn Combine" : 1
+		16384 : "Only Spawn Flying/Jumping NPCs" : 0
 	]
 
 	MaxPlayerDistance(float) : "Max Player Distance" : -1 : "Defines the maximum distance away from the nearest player at which this spawner will continue to spawn NPCs. In other words, this spawner will not spawn NPCs for as long as the nearest player is further away than the distance specified here. Set to -1 to disable functionality."
@@ -201,6 +202,29 @@
 	output OnAcquireEnemies(void) : "Fires when the enemy finder acquires enemies."
 ]
 
+@PointClass base(Targetname, Angles) studio( "models/combine_turrets/floor_turret.mdl" ) = npc_turret_floor : "Turret"
+[
+	spawnflags(Flags) = 
+	[
+		32 : "Autostart" : 0
+		64 : "Start Inactive" : 0
+		128 : "Fast Retire" : 0
+		256 : "Out of Ammo" : 0
+	]
+
+	// Inputs
+	input Toggle(void) : "Toggle - If open, close. If closed, open."
+	input Enable(void) : "Enable the turret."
+	input Disable(void) : "Disable the turret."
+	input DepleteAmmo(void) : "Depletes all the ammo from a turret, causing it to dry-fire."
+	input RestoreAmmo(void) : "Restores ammo to a turret, allowing it to fire live rounds again."
+	input SelfDestruct(void) : "Causes the turret to warn and then explode."
+
+	// Outputs
+	output OnDeploy(void) : "Turret is becoming active and dangerous."
+	output OnRetire(void) : "Turret is becoming inactive and harmless."
+]
+
 @PointClass base(Targetname) iconsprite("editor/bullseye.vmt") = contingency_rallypoint : 
 	"An optional rally point for wave and support wave spawners that can be used to force NPCs to move towards this point entity's origin upon spawning."
 [
@@ -212,3 +236,7 @@
 
 @PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_nyangun : "NYAN GUN" []
 @PointClass base(Weapon) studio("models/weapons/w_healthkit.mdl") = weapon_healthkit : "HEALTH KIT" []
+@PointClass base(Weapon) studio("models/weapons/w_pistol.mdl") = weapon_pistols : "DUAL PISTOLS" []
+@PointClass base(Weapon) studio("models/weapons/w_alyx_gun.mdl") = weapon_alyxgun : "ALYX'S GUN" []
+@PointClass base(Weapon) studio("models/weapons/w_axe.mdl") = weapon_axe : "AXE" []
+@PointClass base(Weapon) studio("models/weapons/w_turretwpn.mdl") = weapon_deployableturret : "DEPLOYABLE TURRET" []
