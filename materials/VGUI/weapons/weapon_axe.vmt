@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-	"$translucent" "1"
-	"$basetexture"	"vgui\weapons\weapon_axe"
+	"$basetexture" "VGUI/weapons/weapon_axe"
+	"$translucent" 1
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
 	"$no_fullbright" "1"

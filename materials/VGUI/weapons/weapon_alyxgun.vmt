@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
-	"$translucent" "1"
-	"$basetexture""vgui\weapons\weapon_smg1"
+	"$basetexture" "VGUI/weapons/weapon_alyxgun"
+	"$translucent" 1
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
 	"$no_fullbright" "1"

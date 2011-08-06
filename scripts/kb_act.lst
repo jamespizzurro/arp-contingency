@@ -3,6 +3,7 @@
 "blank"			"=========================="
 "showloadoutmenu"		"#Contingency_Show_Loadout_Menu"
 "showshoutmenu"			"#Contingency_Show_Shout_Menu"
+"toggleradardisplay"	"#Contingency_Toggle_Radar_Display"
 "drop"					"#Contingency_Drop_Current_Weapon"
 "impulse 50"			"#Contingency_Command_Support_Squad"
 "blank"			"=========================="

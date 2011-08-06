@@ -584,4 +584,18 @@
 		"TextColor" "255 255 255 192"
 		"PaintBackgroundType" "0"
 	}
+	
+	// Added radar display
+	HudRadarDisplay
+	{
+		"fieldName" "HudRadarDisplay"
+		"visible" "1"
+		"enabled" "1"
+		"xpos" "16"
+		"ypos" "102"
+		"wide" "100"
+		"tall" "100"
+		"PaintBackgroundType" "2"
+	}
+
 }
