@@ -229,7 +229,7 @@
 	}
 	"config"
 	{
-		"shadermodel"		"1"
+		"shadermodel"		"0"
 		"cull_mode"		"0"
 		"alpha_blending"		"0"
 		"depth_test"		"1"

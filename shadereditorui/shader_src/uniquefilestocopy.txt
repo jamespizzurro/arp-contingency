@@ -11,5 +11,6 @@ common_lightmappedgeneric_fxc.h
 common_flashlight_fxc.h
 ..\..\..\..\angrymoo\sourcesdk\bin\source2007\bin\shadercompile.exe
 ..\..\..\..\angrymoo\sourcesdk\bin\source2007\bin\shadercompile_dll.dll
-contingency_desaturate_vs30.fxc
-contingency_desaturate_ps30.fxc
+000000_contingency_desaturate_pos_preview_vs20.fxc
+000000_contingency_desaturate_preview_vs20.fxc
+000000_contingency_desaturate_preview_ps20b.fxc

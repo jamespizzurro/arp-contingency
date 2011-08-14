@@ -597,5 +597,23 @@
 		"tall" "100"
 		"PaintBackgroundType" "2"
 	}
+	
+	// Added credits display
+	HudCreditsDisplay
+	{
+		"fieldName"		"HudCreditsDisplay"
+		"xpos"	"r+148"
+		"ypos"	"432"
+		"wide"	"132"
+		"tall"  "36"
+		"visible" "1"
+		"enabled" "1"
 
+		"PaintBackgroundType"	"2"
+		
+		"text_xpos" "8"
+		"text_ypos" "20"
+		"digit_xpos" "60"
+		"digit_ypos" "2"
+	}
 }

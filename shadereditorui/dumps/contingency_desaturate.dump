@@ -1,8 +1,8 @@
 "contingency_desaturate"
 {
-	"vs_name"		"contingency_desaturate_vs30"
-	"ps_name"		"contingency_desaturate_ps30"
-	"i_sm"		"1"
+	"vs_name"		"contingency_desaturate_vs20"
+	"ps_name"		"contingency_desaturate_ps20b"
+	"i_sm"		"0"
 	"i_cull"		"0"
 	"i_ablend"		"0"
 	"fl_atestref"		"0.500000"

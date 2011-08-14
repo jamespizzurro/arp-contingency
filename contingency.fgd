@@ -44,7 +44,7 @@
 // WAVE SYSTEM / NPCs //
 ////////////////////////
 
-@PointClass base(Targetname, Angles, RenderFields, DamageFilter, ResponseContext, Shadow) iconsprite("editor/npc_maker.vmt") = contingency_wave_spawner : 
+@PointClass base(Targetname, Angles, RenderFields, DamageFilter, ResponseContext, Shadow) iconsprite("editor/npc_maker.vmt") = contingency_wave_spawnpoint : 
 	"Used to spawn certain types of waves of NPCs during a combat phase."
 [
 	StartDisabled(choices) : "Start Disabled" : 0 =
@@ -86,7 +86,7 @@
 	input SetSpawnFrequency(float) : "Sets how often (in seconds) a new NPC will be spawned."
 ]
 
-@PointClass base(Targetname, Angles, RenderFields, DamageFilter, ResponseContext, Shadow) iconsprite("editor/npc_maker.vmt") = contingency_support_wave_spawner : 
+@PointClass base(Targetname, Angles, RenderFields, DamageFilter, ResponseContext, Shadow) iconsprite("editor/npc_maker.vmt") = contingency_support_spawnpoint : 
 	"Used to spawn support NPCs during an interim phase."
 [
 	StartDisabled(choices) : "Start Disabled" : 0 =
@@ -123,7 +123,7 @@
 	input SetSpawnFrequency(float) : "Sets how often (in seconds) a new NPC will be spawned."
 ]
 
-@PointClass base(Targetname, Angles, RenderFields, DamageFilter, ResponseContext, Shadow) iconsprite("editor/npc_maker.vmt") = contingency_boss_spawner : 
+@PointClass base(Targetname, Angles, RenderFields, DamageFilter, ResponseContext, Shadow) iconsprite("editor/npc_maker.vmt") = contingency_boss_spawnpoint : 
 	"Used to spawn boss NPCs during a combat phase."
 [
 	StartDisabled(choices) : "Start Disabled" : 0 =
@@ -148,7 +148,6 @@
 	BossNPCType(choices) : "Boss NPC Type" : "npc_antlionguard" : "Defines the specific type of boss NPC to spawn from this spawner." =
 	[
 		"npc_antlionguard" : "Antlion Guard (Antlion Waves ONLY)"
-		"npc_strider" : "Strider (Combine Waves ONLY)"
 	]
 	BossSpawnFrequency(integer) : "Boss NPC Spawn Frequency" : 5 : "Defines how frequently boss NPCs may be spawned from this spawner using 'every x number of waves' logic, where x is whatever positive, non-zero integer you choose to define here. Whether or not a boss NPC is actually spawned when it should is determined by the game logic."
 	

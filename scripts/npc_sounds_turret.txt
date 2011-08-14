@@ -326,18 +326,3 @@
 
 	"wave"			"npc/turret_floor/die.wav"
 }
-
-
-// Contingency - James
-// Everything from here on down is specific to Contingency
-
-"NPC_Turret.ExplodingAlert"
-{
-	"channel"		"CHAN_VOICE"
-	"volume"		"VOL_NORM"
-	"pitch"			"PITCH_NORM"
-
-	"soundlevel"	"SNDLVL_80dB"
-
-	"wave"			"npc/turret_floor/alarm.wav"
-}

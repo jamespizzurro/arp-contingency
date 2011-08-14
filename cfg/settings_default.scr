@@ -174,4 +174,10 @@ DESCRIPTION SERVER_OPTIONS
 		{ "2" }
 	}
 	
+	"contingency_props_maxperplayer"
+	{
+		"#Contingency_Props_MaxPerPlayer"
+		{ NUMBER 0 -1 }
+		{ "5" }
+	}
 }
