@@ -16,7 +16,7 @@ WeaponData
 
 	"weight"				"15"
 	"item_flags"			"0"
-	"damage"			"9"
+	"damage"			"8"
 
 	"weapon_type"	"primary"
 

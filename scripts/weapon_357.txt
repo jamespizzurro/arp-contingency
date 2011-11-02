@@ -7,7 +7,7 @@ WeaponData
 	"viewmodel"			"models/weapons/v_357.mdl"
 	"playermodel"		"models/weapons/w_357.mdl"
 	"anim_prefix"		"python"
-	"bucket"			"0"
+	"bucket"			"1"
 	"bucket_position"	"0"
 
 	"clip_size"			"6"
@@ -18,7 +18,7 @@ WeaponData
 	"weight"		"10"
 	"item_flags"		"0"
 
-	"damage"		"75"
+	"damage"		"40"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData

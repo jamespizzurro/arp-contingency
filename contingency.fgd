@@ -22,6 +22,8 @@
 		64 : "Allow Combine waves" : 1
 	]
 	
+	InterimPhaseLength(integer) : "Interim Phase Length" : 30 : "Defines the length of all interim phases (in seconds)"
+	
 	// By default, a map allows players' radar displays
 	AllowRadars(choices) : "Allow Radar Displays" : 1 : "If enabled, players will be allowed to toggle and use their radar displays." =
 	[
@@ -29,12 +31,18 @@
 		1 : "Yes"
 	]
 
+	MaxPropsPerPlayer(integer) : "Max Props Per Player" : 100 : "Defines the maximum amount of props a player is allowed to have in the world at any given time."
+	
+	StartingCredits(integer) : "Starting Credits" : 0 : "Defines the amount of credits players are given when they spawn for the first time during a game."
+	
+	MaxLivingNPCs(integer) : "Global Max Live NPCs" : 30 : "Defines the maximum amount of non-support wave NPCs allowed to be in the world at any given time."
+	
 	// By default, a server's wave multipliers are not manipulated or modified in any way
 	HeadcrabWaveMultiplierOffset(float) : "Headcrab Wave Multiplier Offset" : 0 : "Defines an offset for the server's headcrab wave multiplier. For example, if the server's multiplier is 2, defining 1 here will make the multiplier 3. Negative numbers are supported, but could easily break something."
 	AntlionWaveMultiplierOffset(float) : "Antlion Wave Multiplier Offset" : 0 : "Defines an offset for the server's antlion wave multiplier. For example, if the server's multiplier is 2, defining 1 here will make the multiplier 3. Negative numbers are supported, but could easily break something."
 	ZombieWaveMultiplierOffset(float) : "Zombie Wave Multiplier Offset" : 0 : "Defines an offset for the server's zombie wave multiplier. For example, if the server's multiplier is 2, defining 1 here will make the multiplier 3. Negative numbers are supported, but could easily break something."
 	CombineWaveMultiplierOffset(float) : "Combine Wave Multiplier Offset" : 0 : "Defines an offset for the server's Combine wave multiplier. For example, if the server's multiplier is 2, defining 1 here will make the multiplier 3. Negative numbers are supported, but could easily break something."	
-
+	
 	// Outputs
 	output OnInterimPhaseBegin(void) : "Fired when an interim phase begins (usually if not always corresponds with the ending of a combat phase)."
 	output OnCombatPhaseBegin(void) : "Fired when a combat phase begins (usually if not always corresponds with the ending of an interim phase)."
@@ -58,11 +66,27 @@
 		// Only in npc__maker, npc_template_maker uses flag from template NPC
 		64 : "Do Not Drop" : 0
 		128 : "Don't Spawn While Visible" : 0
+		
+		// Headcrabs
 		1024 : "Can Spawn Headcrabs" : 1
-		2048 : "Can Spawn Antlions" : 1
-		4096 : "Can Spawn Zombies" : 1
-		8192 : "Can Spawn Combine" : 1
-		16384 : "Only Spawn Flying/Jumping NPCs" : 0
+		2048 : "Can Spawn Fast Headcrabs" : 1
+		4096 : "Can Spawn Poison Headcrabs" : 1
+
+		// Antlions
+		8192 : "Can Spawn Antlions" : 1
+		
+		// Zombies
+		16384 : "Can Spawn Zombies" : 1
+		32768 : "Can Spawn Zombie Torsos" : 1
+		65536 : "Can Spawn Fast Zombies" : 1
+		131072 : "Can Spawn Poison Zombies" : 1
+		
+		// Combine
+		262144 : "Can Spawn Combine Soldiers" : 1
+		524288 : "Can Spawn Combine Metrocops" : 1
+		1048576 : "Can Spawn Combine Scanners" : 1
+		2097152 : "Can Spawn Combine Manhacks" : 1
+		4194304 : "Can Spawn Combine Stalkers" : 1
 	]
 
 	MaxPlayerDistance(float) : "Max Player Distance" : -1 : "Defines the maximum distance away from the nearest player at which this spawner will continue to spawn NPCs. In other words, this spawner will not spawn NPCs for as long as the nearest player is further away than the distance specified here. Set to -1 to disable functionality."

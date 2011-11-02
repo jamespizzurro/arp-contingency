@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"		"0"
-		"title"		"Prop Spawning Menu"
+		"title"		"Prop Selection Menu"
 	}
 	"ItemInfo"
 	{
@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"PROP SPAWNING MENU"
+		"labelText"		"PROP SELECTION MENU"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -180,7 +180,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"Spawn Prop"
+		"labelText"		"Select Prop"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -188,7 +188,7 @@
 		"centerwrap"		"0"
 		"textinsetx"		"6"
 		"textinsety"		"0"
-		"command"		"spawnprop"
+		"command"		"selectprop"
 		"Default"		"0"
 	}
 	"CancelButton"

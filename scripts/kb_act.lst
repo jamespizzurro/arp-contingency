@@ -2,7 +2,6 @@
 "blank"			"#Contingency_Miscellaneous_Title"
 "blank"			"=========================="
 "showloadoutmenu"		"#Contingency_Show_Loadout_Menu"
-"showpropspawningmenu"	"#Contingency_Show_PropSpawning_Menu"
 "showshoutmenu"			"#Contingency_Show_Shout_Menu"
 "toggleradardisplay"	"#Contingency_Toggle_Radar_Display"
 "drop"					"#Contingency_Drop_Current_Weapon"

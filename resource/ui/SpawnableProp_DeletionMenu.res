@@ -82,7 +82,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labelText"		"WARNING: This cannot be undone and you will not be refunded any credits!"
+		"labelText"		"You will be refunded all of the credits you used to purchase it."
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"

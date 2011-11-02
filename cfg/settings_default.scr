@@ -125,25 +125,11 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 	
-	"contingency_phase_interimtime"
-	{
-		"#Contingency_Phase_Interim_Time"
-		{ NUMBER 0 -1 }
-		{ "30" }
-	}
-	
 	"contingency_wave_support"
 	{
 		"#Contingency_Wave_Support"
 		{ BOOL }
 		{ "1" }
-	}
-	
-	"contingency_wave_maxlivingnpcs"
-	{
-		"#Contingency_Wave_Max_Living_NPCs"
-		{ NUMBER 0 -1 }
-		{ "30" }
 	}
 	
 	"contingency_wave_multiplier_headcrabs"
@@ -172,12 +158,5 @@ DESCRIPTION SERVER_OPTIONS
 		"#Contingency_Wave_Multiplier_Combine"
 		{ NUMBER 0 -1 }
 		{ "2" }
-	}
-	
-	"contingency_props_maxperplayer"
-	{
-		"#Contingency_Props_MaxPerPlayer"
-		{ NUMBER 0 -1 }
-		{ "5" }
 	}
 }
