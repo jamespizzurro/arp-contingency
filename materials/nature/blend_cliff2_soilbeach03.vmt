@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+
+{
+ 
+     "$BaseTexture" "nature/cliff02"
+
+     "$BaseTexture2" "desert/SoilBeach03"
+
+     "%detailtype" "redgrass"
+	"%keywords" "MOD"
+}

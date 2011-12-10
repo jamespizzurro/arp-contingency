@@ -34,6 +34,11 @@
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
+	"9"
+	{
+		"label" "LOADOUT SELECTION"
+		"command" "engine OpenLoadoutMenu"
+	}
 	"10"
 	{
 		"label" "#GameUI_GameMenu_Options"

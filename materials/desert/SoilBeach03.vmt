@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "desert/SoilBeach03"
+	"$bumpmap" "desert/SoilBeach03_nrm"
+	"$surfaceprop" "Ice"
+
+	"%keywords" "MOD"
+}

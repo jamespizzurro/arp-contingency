@@ -7,7 +7,7 @@ WeaponData
 	"viewmodel"				"models/weapons/v_wrench.mdl"
 	"playermodel"			"models/weapons/w_wrench.mdl"
 	"anim_prefix"			"crowbar"
-	"bucket"				"2"
+	"bucket"				"4"
 	"bucket_position"		"0"
 
 	"clip_size"				"-1"

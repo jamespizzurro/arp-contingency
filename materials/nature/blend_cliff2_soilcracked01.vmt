@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+
+{
+ 
+     "$BaseTexture" "nature/cliff02"
+
+     "$BaseTexture2" "desert/SoilCracked01"
+
+
+	"%keywords" "MOD"
+
+}

@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+     "$BaseTexture" "desert/SoilCracked01"
+     "$BaseTexture2" "desert/SoilBeach03"
+     "$bumpmap" "desert/SoilBeach03_nrm"
+     "%detailtype" "redgrass"
+	"%keywords" "MOD"
+}

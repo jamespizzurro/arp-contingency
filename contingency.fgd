@@ -265,8 +265,3 @@
 /////////////
 
 @PointClass base(Weapon) studio("models/weapons/w_rocket_launcher.mdl") = weapon_nyangun : "NYAN GUN" []
-@PointClass base(Weapon) studio("models/weapons/w_healthkit.mdl") = weapon_healthkit : "HEALTH KIT" []
-@PointClass base(Weapon) studio("models/weapons/w_pistol.mdl") = weapon_pistols : "DUAL PISTOLS" []
-@PointClass base(Weapon) studio("models/weapons/w_alyx_gun.mdl") = weapon_alyxgun : "ALYX'S GUN" []
-@PointClass base(Weapon) studio("models/weapons/w_axe.mdl") = weapon_axe : "AXE" []
-@PointClass base(Weapon) studio("models/weapons/w_turretwpn.mdl") = weapon_deployableturret : "DEPLOYABLE TURRET" []
