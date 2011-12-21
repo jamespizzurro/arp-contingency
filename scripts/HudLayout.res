@@ -616,4 +616,22 @@
 		"digit_xpos" "60"
 		"digit_ypos" "2"
 	}
+	
+	HudHintKeyDisplay
+	{
+		"fieldName"	"HudHintKeyDisplay"
+		"visible"	"0"
+		"enabled" 	"1"
+		"xpos"		"r116"
+		"ypos"		"114"
+		"wide"		"100"
+		"tall"		"200"
+		"text_xpos"	"8"
+		"text_ypos"	"8"
+		"text_xgap"	"8"
+		"text_ygap"	"8"
+		"TextColor"	"255 255 255 255"
+
+		"PaintBackgroundType"	"2"
+	}
 }

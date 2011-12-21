@@ -11,6 +11,10 @@ exec autoexec.cfg
 //
 stuffcmds
 
-hostname "Half-Life 2 Deathmatch"
+hostname "Contingency"
 
 mp_forcerespawn 0
+
+// Contingency - James
+// Force background music to play (this is done here for looping purposes)
+play "ui/gamestartup.wav"

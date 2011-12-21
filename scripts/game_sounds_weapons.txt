@@ -1617,3 +1617,22 @@
 
 	"wave"		"^weapons/alyxgun/alyxgun_fire.wav"
 }
+
+"Weapon_Wrench.Construct"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"		"95, 100, 105"
+
+	"rndwave"
+	{
+		"wave"		"physics\cardboard\cardboard_box_impact_hard1.wav"
+		"wave"		"physics\cardboard\cardboard_box_impact_hard2.wav"
+		"wave"		"physics\cardboard\cardboard_box_impact_hard3.wav"
+		"wave"		"physics\cardboard\cardboard_box_impact_hard4.wav"
+		"wave"		"physics\cardboard\cardboard_box_impact_hard5.wav"
+		"wave"		"physics\cardboard\cardboard_box_impact_hard6.wav"
+		"wave"		"physics\cardboard\cardboard_box_impact_hard7.wav"
+	}
+}

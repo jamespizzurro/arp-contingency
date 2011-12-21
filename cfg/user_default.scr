@@ -47,10 +47,17 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
+	
+	"contingency_client_weaponhints"
+	{
+		"Show weapon hints on HUD"
+		{ BOOL }
+		{ "1" }
+	}
 
 	"contingency_client_backgroundmusic"
 	{
-		"Play background music during combat phases"
+		"Allow background music to play automatically"
 		{ BOOL }
 		{ "1" }
 	}
