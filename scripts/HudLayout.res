@@ -488,7 +488,7 @@
 	HudAmmo
 	{
 		"fieldName" "HudAmmo"
-		"xpos"	"16"
+		"xpos"	"r+116"
 		"ypos"	"432"
 		"wide"	"100"
 		"tall"  "36"
@@ -508,7 +508,7 @@
 	HudAmmoSecondary
 	{
 		"fieldName" "HudAmmoSecondary"
-		"xpos"	"132"
+		"xpos"	"r+192"
 		"ypos"	"432"
 		"wide"	"60"
 		"tall"  "36"
@@ -602,9 +602,9 @@
 	HudCreditsDisplay
 	{
 		"fieldName"		"HudCreditsDisplay"
-		"xpos"	"r+148"
+		"xpos"	"16"
 		"ypos"	"432"
-		"wide"	"132"
+		"wide"	"128"
 		"tall"  "36"
 		"visible" "1"
 		"enabled" "1"
@@ -615,6 +615,27 @@
 		"text_ypos" "20"
 		"digit_xpos" "60"
 		"digit_ypos" "2"
+	}
+	
+	// Added spawnable prop system
+	HudNumPropsDisplay
+	{
+		"fieldName"		"HudNumPropsDisplay"
+		"xpos"	"160"
+		"ypos"	"432"
+		"wide"	"157"
+		"tall"  "36"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+		
+		"text_xpos" "8"
+		"text_ypos" "20"
+		"digit_xpos" "80"
+		"digit_ypos" "2"
+		"digit2_xpos" "125"
+		"digit2_ypos" "16"
 	}
 	
 	HudHintKeyDisplay

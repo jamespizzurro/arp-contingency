@@ -46,6 +46,11 @@
 	}
 	"11"
 	{
+		"label" "CREDITS"
+		"command" "engine OpenCreditsList"
+	}
+	"12"
+	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
 	}

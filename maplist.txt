@@ -1,2 +1,5 @@
-contingency_bunker
 contingency_ravine
+contingency_bunker
+contingency_fortress
+contingency_lockdown
+contingency_overpass

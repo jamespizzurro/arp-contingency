@@ -22,7 +22,7 @@
 		64 : "Allow Combine waves" : 1
 	]
 	
-	InterimPhaseLength(integer) : "Interim Phase Length" : 30 : "Defines the length of all interim phases (in seconds)"
+	InterimPhaseLength(integer) : "Interim Phase Length" : 60 : "Defines the length of all interim phases (in seconds)"
 	
 	// By default, a map allows players' radar displays
 	AllowRadars(choices) : "Allow Radar Displays" : 1 : "If enabled, players will be allowed to toggle and use their radar displays." =
@@ -31,9 +31,9 @@
 		1 : "Yes"
 	]
 
-	MaxPropsPerPlayer(integer) : "Max Props Per Player" : 100 : "Defines the maximum amount of props a player is allowed to have in the world at any given time."
+	MaxPropsPerPlayer(integer) : "Max Props Per Player" : 50 : "Defines the maximum amount of props a player is allowed to have in the world at any given time."
 	
-	StartingCredits(integer) : "Starting Credits" : 0 : "Defines the amount of credits players are given when they spawn for the first time during a game."
+	StartingCredits(integer) : "Starting Credits" : 3 : "Defines the amount of credits players are given when they spawn for the first time during a game."
 	
 	MaxLivingNPCs(integer) : "Global Max Live NPCs" : 30 : "Defines the maximum amount of non-support wave NPCs allowed to be in the world at any given time."
 	
