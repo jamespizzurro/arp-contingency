@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"Contingency {Open Alpha}"
+	game	"Contingency"
 	title	"CONTINGENCY"
 	icon "resource/steamicon"
 	type 	multiplayer_only

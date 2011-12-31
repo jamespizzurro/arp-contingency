@@ -30,10 +30,16 @@ a:hover {
     }
 </style>
 </head>
-<body scroll="no">
+<body scroll="yes">
 <pre>
-Welcome to Contingency!
-Visit us on the web @ www.agentredproductions.com
+<div align="center">
+<img src="http://www.agentredproductions.com/contingencylogo.png">
+
+Visit us on the web @ <a href="http://www.agentredproductions.com">www.agentredproductions.com</a>
+
+<div>Official Servers and Additional Content Hosting Provided By:
+<a href="https://secure.branzone.com/aff.php?aff=233"><img src="http://www.branzone.com/img/banners/new_396x53.gif" alt="" style="border:2px solid grey;" /></a></div>
+</div>
 </pre>
 </body>
 </html>
