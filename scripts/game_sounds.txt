@@ -208,6 +208,15 @@
 	}
 }
 
+"Contingency.InterimToCombatChallenge"
+{
+	"volume"	"VOL_NORM"
+	"pitch"		"95,100,105"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"	"music/interimTOcombatChallenge.wav"
+}
+
 "Contingency.CombatToInterim"
 {
 	"volume"	"VOL_NORM"

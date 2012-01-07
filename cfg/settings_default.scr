@@ -132,31 +132,45 @@ DESCRIPTION SERVER_OPTIONS
 		{ "1" }
 	}
 	
-	"contingency_wave_multiplier_headcrabs"
+	"contingency_wave_challenge_frequency"
 	{
-		"#Contingency_Wave_Multiplier_Headcrabs"
+		"#Contingency_Wave_Challenge_Frequency"
 		{ NUMBER 0 -1 }
-		{ "3" }
+		{ "5" }
+	}
+	
+	"contingency_wave_multiplier_arbitrary"
+	{
+		"#Contingency_Wave_Multiplier_Arbitrary"
+		{ NUMBER 0 -1 }
+		{ "5" }
+	}
+	
+	"contingency_wave_multiplier_players"
+	{
+		"#Contingency_Wave_Multiplier_Players"
+		{ NUMBER 0 -1 }
+		{ "0.125" }
 	}
 	
 	"contingency_wave_multiplier_antlions"
 	{
 		"#Contingency_Wave_Multiplier_Antlions"
 		{ NUMBER 0 -1 }
-		{ "4" }
+		{ "1.25" }
 	}
 	
 	"contingency_wave_multiplier_zombies"
 	{
 		"#Contingency_Wave_Multiplier_Zombies"
 		{ NUMBER 0 -1 }
-		{ "5" }
+		{ "1" }
 	}
 	
 	"contingency_wave_multiplier_combine"
 	{
 		"#Contingency_Wave_Multiplier_Combine"
 		{ NUMBER 0 -1 }
-		{ "2" }
+		{ "0.75" }
 	}
 }
