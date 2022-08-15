@@ -1,8 +1,8 @@
-##v 0.1.0##
+### v 0.1.0
 
 Initial release.
 
-##v 0.1.5##
+### v 0.1.5
 
 * All NPCs are now much more aware of spawnable props so that enemy NPCs will attack them upon encountering them, including if they are blocking the way to players
 * Players can no longer collide with each other, thereby fixing any issues where players could get stuck inside other players when spawning and whatnot
@@ -23,7 +23,7 @@ Initial release.
 * Completely revamped contingency_ravine from scratch
 * Added a concrete barrier to the prop spawning menu (costs 10 credits, has 200HP)
 
-##HEVcrab's community patch changes##
+### HEVcrab's community patch changes
 
 **Visual improvements**
 
