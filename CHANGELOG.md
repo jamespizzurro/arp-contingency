@@ -27,9 +27,9 @@ Initial release.
 
 **Visual improvements**
 
-* AR2 viewmodel, animations and sounds from [Entropy Zero 2 demo] (https://www.moddb.com/mods/entropy-zero-2/downloads/entropy-zero-2-demo-v01)
-* SMG1 viewmodel from [Thunder's Leaves] (https://www.moddb.com/mods/thunders-leaves/downloads/thunders-leaves-11)
-* [Custom crosshair] (https://bullseyecrosshairs.com/hl2sites3.shtm) by rjdriver, its shape and color (cyan) making its visibility much better.
+* AR2 viewmodel, animations and sounds from [Entropy Zero 2 demo](https://www.moddb.com/mods/entropy-zero-2/downloads/entropy-zero-2-demo-v01)
+* SMG1 viewmodel from [Thunder's Leaves](https://www.moddb.com/mods/thunders-leaves/downloads/thunders-leaves-11)
+* [Custom crosshair](https://bullseyecrosshairs.com/hl2sites3.shtm) by rjdriver, its shape and color (cyan) making its visibility much better.
 
 **Fixes of binaries**
 
