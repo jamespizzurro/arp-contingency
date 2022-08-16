@@ -47,6 +47,8 @@ Initial release.
 
 * Players' weapons damage values now are 5 for SMG1, 8 for 9mm pistol(s) and Alyx's gun, 10 for AR2, 15 for the turret, 20 for the stunstick.
 * SMG1, 9mm pistol(s) and AR2s deal the same damage when wielded by enemies and players.
+* Manhacks now have 15 hp as they're really hard to hit because of the server latency.
+* Stalkers now have 20 hp for the reasons they're dystrophic cripples and to compensate for their extremely precise long-range laser attack.
 * Zombies and fast zombies now have 40 hp to get dropped by one Magnum shot.
 * Fast/regular/poison headcrabs now have 10/15/20 hp.
 * Both players and NPCs take 4x damage from headshots.
