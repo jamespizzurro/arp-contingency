@@ -39,7 +39,7 @@ Initial release.
 
 * Poison headcrabs reducing spawnable barricade props' health to 1 hp has been fixed, now poison headcrabs deal fixed 10 damage to spawnable props.
 * If the player was carrying a physics prop with a gravity gun at the moment when interim phase ended (so when combat phase started the player was deprived of the grav gun and the prop was dropped), this prop became collision-less with bullets, players and NPCs. This is no longer the case, and props dropped because of game phase change behave correctly.
-* Now the player can detonate the SLAM when holding a detonator (i.e. having a satchel in the world) and ready tripmine-mode satchel in hands
+* Now the player can detonate the SLAM when holding a detonator (i.e. having a satchel in the world) and ready tripmine-mode satchel in hands.
 * Prop fading in the distance is now controlled by convar cl_propfade saved to config.cfg (0 to disable - default value, 1 to enable).
 * Darkening of the screen at the start of the combat phase has been disabled as it blinded the players in darker areas/maps.
 
@@ -47,6 +47,6 @@ Initial release.
 
 * Players' weapons damage values now are 5 for SMG1, 8 for 9mm pistol(s) and Alyx's gun, 10 for AR2, 15 for the turret, 20 for the stunstick.
 * SMG1, 9mm pistol(s) and AR2s deal the same damage when wielded by enemies and players.
-* Fast zombies now have 40 hp to get dropped by one Magnum shot.
+* Zombies and fast zombies now have 40 hp to get dropped by one Magnum shot.
 * Fast/regular/poison headcrabs now have 10/15/20 hp.
 * Both players and NPCs take 4x damage from headshots.
