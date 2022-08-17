@@ -42,6 +42,7 @@ Initial release.
 * Now the player [can detonate the SLAM](https://youtu.be/pvfdsDBldqI) when holding a detonator (i.e. having a satchel in the world) and ready tripmine-mode satchel in hands.
 * Prop fading in the distance is now controlled by convar cl_propfade saved to config.cfg (0 to disable - default value, 1 to enable).
 * Darkening of the screen at the start of the combat phase has been disabled as it blinded the players in darker areas/maps.
+* "PlayerName's Prop" string displayed when aiming at props spawned by other players getting trimmed to first 8 characters of PlayerName has been fixed.
 
 **Balance improvements**
 
