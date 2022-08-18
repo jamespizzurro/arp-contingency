@@ -35,7 +35,7 @@ Initial release.
 * SMG1 viewmodel from [Thunder's Leaves](https://www.moddb.com/mods/thunders-leaves/downloads/thunders-leaves-11)
 * [Custom crosshair](https://bullseyecrosshairs.com/hl2sites3.shtm) by rjdriver, its shape and color (cyan) making its visibility much better.
 
-**Fixes of binaries**
+**Fixes of game bugs**
 
 * Poison headcrabs reducing spawnable barricade props' health to 1 hp has been fixed, now poison headcrabs deal fixed 10 damage to spawnable props.
 * If the player was carrying a physics prop with a gravity gun at the moment when interim phase ended (so when combat phase started the player was deprived of the grav gun and the prop was dropped), this prop became collision-less with bullets, players and NPCs. This is no longer the case, and props dropped because of game phase change behave correctly.
