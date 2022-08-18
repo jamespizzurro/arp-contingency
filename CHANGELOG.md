@@ -23,7 +23,7 @@ Initial release.
 * Completely revamped contingency_ravine from scratch
 * Added a concrete barrier to the prop spawning menu (costs 10 credits, has 200HP)
 
-### HEVcrab's community patch changes
+### v 0.1.6
 
 **Visual improvements**
 
