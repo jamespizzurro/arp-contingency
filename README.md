@@ -53,3 +53,9 @@ Initial release.
 * Zombies and fast zombies now have 40 hp to get dropped by one Magnum shot.
 * Fast/regular/poison headcrabs now have 10/15/20 hp.
 * Both players and NPCs take 4x damage from headshots.
+
+### v 0.1.7
+
+**Map updates**
+
+* contingency_canals improvement by MyCbEH (Musien), head of Snowdrop Escape dev team.
