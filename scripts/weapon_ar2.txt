@@ -19,7 +19,7 @@ WeaponData
 	"primary_ammo"			"AR2"
 	"secondary_ammo"		"AR2AltFire"
 
-	"weight"			"20"
+	"weight"			"30"
 	"item_flags"			"0"
 	"damage"			"10"
 
