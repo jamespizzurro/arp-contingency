@@ -76,6 +76,9 @@
 		8192 : "Can Spawn Antlions" : 1
 		
 		// Zombies
+		1024 : "Can Spawn Headcrabs" : 1
+		2048 : "Can Spawn Fast Headcrabs" : 1
+		4096 : "Can Spawn Poison Headcrabs" : 1
 		16384 : "Can Spawn Zombies" : 1
 		32768 : "Can Spawn Zombie Torsos" : 1
 		65536 : "Can Spawn Fast Zombies" : 1

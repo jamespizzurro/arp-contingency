@@ -67,3 +67,7 @@ Initial release.
 * Fast headcrab now has 10 hp to die from one AR2 shot or two shots from other automatic weapons. Didn't notice before that in code it had read the classic headcrab health entry from skill.cfg.
 * Fast zombie health has been de-hardcoded and brought to skill.cfg.
 * Some weapons' weights (that affect the wielder's speed) have been adjusted for balance: Alyx's gun is now the most lightweight of primary weapons, AR2 is the heaviest, crossbow is the second heaviest.
+
+### v 0.1.8b
+
+* Headcrabs have joined the zombie wave, looking for some victims to zombify.
