@@ -164,7 +164,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Contingency_Wave_Multiplier_Zombies"
 		{ NUMBER 0 -1 }
-		{ "1" }
+		{ "1.5" }
 	}
 	
 	"contingency_wave_multiplier_combine"

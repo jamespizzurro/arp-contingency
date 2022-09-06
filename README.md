@@ -71,3 +71,8 @@ Initial release.
 ### v 0.1.8b
 
 * Headcrabs have joined the zombie wave, looking for some victims to zombify.
+
+### v 0.1.8с
+
+* Default server settings now have zombie wave multiplier 1.5 instead of 1 accounting for spawning headcrabs as well as zombies.
+* Fixes for maps contingency_bunker, contingency_factory, contingency_lockdown, contingency_overpass and contingency_ravine by MyCbEH (Musien) who added headcrab spawn flags and force field hum/buzz.
