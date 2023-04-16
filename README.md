@@ -2,13 +2,27 @@ The complete game files of Contingency, a Half-Life 2 modification built using t
 
 ## Changelog
 
+### v 0.1.8d
+
+* Fixed an oversight in ghost prop prevention, now it works when the prop-holding gravity gun is taken away at the end of any game phase.
+
+**Known issues**
+
+* To start a server visible through Hamachi/Internet the hosting player has to type 'sv_lan 0' and 'map map_name' in the console after starting a server.
+See discussion here: https://steamcommunity.com/app/211/discussions/0/522730700940732111/
+
 ### v 0.1.8c Feb 7, 2023
 
 * Fixed an oversight in viewrender.cpp
 
 ### v 0.1.8с
 
+**Balance improvements**
+
 * Default server settings now have zombie wave multiplier 1.5 instead of 1 accounting for spawning headcrabs as well as zombies.
+
+**Map updates**
+
 * Fixes for maps contingency_bunker, contingency_factory, contingency_lockdown, contingency_overpass and contingency_ravine by MyCbEH (Musien) who added headcrab spawn flags and force field hum/buzz.
 
 ### v 0.1.8b
