@@ -18,7 +18,7 @@ WeaponData
 
 	"weight"				"5"
 	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
-	"damage"			"150"
+	// "damage"			"150"
 
 	"weapon_type"	"equipment"
 
